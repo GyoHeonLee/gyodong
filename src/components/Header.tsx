@@ -2,7 +2,7 @@ import { NavLink, Link } from "react-router-dom";
 
 const Header = () => {
   return (
-    <header className="p-4 font-semibold shadow-md text-white bg-gray-800">
+    <header className="p-4 mb-8 font-semibold shadow-md text-white bg-gray-800">
       <nav>
         <ul className="flex">
           <li>
