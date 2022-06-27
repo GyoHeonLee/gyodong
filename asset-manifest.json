@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/gyodong/static/css/main.3dd3fa3a.css",
-    "main.js": "/gyodong/static/js/main.133b0161.js",
+    "main.css": "/gyodong/static/css/main.67f2e6f6.css",
+    "main.js": "/gyodong/static/js/main.ba985496.js",
     "index.html": "/gyodong/index.html",
-    "main.3dd3fa3a.css.map": "/gyodong/static/css/main.3dd3fa3a.css.map",
-    "main.133b0161.js.map": "/gyodong/static/js/main.133b0161.js.map"
+    "main.67f2e6f6.css.map": "/gyodong/static/css/main.67f2e6f6.css.map",
+    "main.ba985496.js.map": "/gyodong/static/js/main.ba985496.js.map"
   },
   "entrypoints": [
-    "static/css/main.3dd3fa3a.css",
-    "static/js/main.133b0161.js"
+    "static/css/main.67f2e6f6.css",
+    "static/js/main.ba985496.js"
   ]
 }
