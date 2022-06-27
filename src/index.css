@@ -22,9 +22,20 @@ code {
 .active {
   @apply bg-white text-gray-700;
 }
-.momorandum--ol {
-  @apply my-10 mx-auto max-w-screen-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg dark:bg-gray-700 dark:border-gray-600 dark:text-white;
+
+.momorandum--div {
+  @apply p-3 my-10 mx-auto max-w-screen-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg dark:bg-gray-700 dark:border-gray-600 dark:text-white;
 }
+.momorandum--ol {
+  @apply list-decimal;
+}
+.momorandum--li {
+  @apply p-2 ml-10;
+}
+.momorandum--h1 {
+  @apply m-2 text-xl font-bold;
+}
+
 .love--graphy--div {
   @apply mx-auto max-w-screen-sm p-5 mb-8 bg-gray-50 rounded-lg border border-gray-100 dark:bg-gray-800 dark:border-gray-700;
 }
