@@ -1,6 +1,8 @@
-import { Route, Routes, BrowserRouter, Outlet } from "react-router-dom";
+import { Route, Routes, BrowserRouter } from "react-router-dom";
 import Header from "./components/Header";
 import Memorandum from "./pages/Memorandum";
+import Home from "./components/Home";
+import LoveGraphy from "./components/LoveGraphy";
 
 interface RouteObject {
   element?: React.ReactNode;
@@ -9,10 +11,12 @@ interface RouteObject {
 
 function Router<RouteObject>() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Header />
       <Routes>
-        <Route path="Memorandum" element={<Memorandum />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/memorandum" element={<Memorandum />} />
+        <Route path="/lovegraphy`" element={<LoveGraphy />} />
 
         <Route
           path="*"
