@@ -1,5 +1,3 @@
-import { memo } from "react";
-
 const dongju: Array<string> = [
   "나 이동주는 평생 이교헌을 질려하지 않겠습니다.",
   "나 이동주는 이교헌과 결혼하겠습니다.",
