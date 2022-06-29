@@ -37,5 +37,5 @@ code {
 }
 
 .love--graphy--div {
-  @apply mx-auto max-w-screen-sm p-5 mb-8 bg-gray-50 rounded-lg border border-gray-100 dark:bg-gray-800 dark:border-gray-700;
+  @apply max-w-screen-sm p-5 mb-8 bg-gray-50 rounded-lg border border-gray-100 dark:bg-gray-800 dark:border-gray-700;
 }

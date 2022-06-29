@@ -1,8 +1,7 @@
 import { Route, Routes, BrowserRouter } from "react-router-dom";
-import Header from "./components/Header";
 import Memorandum from "./pages/Memorandum";
-import Home from "./components/Home";
-import LoveGraphy from "./components/LoveGraphy";
+import Home from "./pages/Home";
+import LoveGraphy from "./pages/LoveGraphy";
 import Layout from "./components/Layout";
 
 interface RouteObject {
