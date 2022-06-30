@@ -1,11 +1,11 @@
-type Props = {
+export type LoveGraphyDayType = {
   day: string;
   text: string;
   subText: string;
   ps: string;
 };
 
-const LoveGraphyDay = ({ day, text, subText, ps }: Props) => {
+const LoveGraphyDay = ({ day, text, subText, ps }: LoveGraphyDayType) => {
   return (
     <li className="mb-10 ml-4">
       <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700" />
