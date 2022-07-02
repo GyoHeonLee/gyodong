@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export type LoveGraphyDayType = {
   day: string;
   text: string;
@@ -13,7 +15,10 @@ const LoveGraphyDay = ({ day, text, subText, ps }: LoveGraphyDayType) => {
         <time className="text-lg font-semibold text-gray-900 dark:text-white">
           {day}
         </time>
-        <a className="block items-center p-3 sm:flex hover:bg-gray-100 dark:hover:bg-gray-700">
+        <Link
+          to={`./${day}`}
+          className="block items-center p-3 sm:flex hover:bg-gray-100 dark:hover:bg-gray-700"
+        >
           {/* <img
           className="mr-3 mb-3 w-12 h-12 rounded-full sm:mb-0"
           src="/docs/images/people/profile-picture-1.jpg"
@@ -42,7 +47,7 @@ const LoveGraphyDay = ({ day, text, subText, ps }: LoveGraphyDayType) => {
               {ps}
             </span>
           </div>
-        </a>
+        </Link>
       </div>
     </li>
   );

@@ -3,6 +3,7 @@ import Memorandum from "./pages/Memorandum";
 import Home from "./pages/Home";
 import LoveGraphy from "./pages/LoveGraphy";
 import Layout from "./components/Layout";
+import Date from "./pages/Date";
 
 interface RouteObject {
   element?: React.ReactNode;
@@ -17,6 +18,7 @@ function Router<RouteObject>() {
           <Route path="/" element={<Home />} />
           <Route path="/memorandum" element={<Memorandum />} />
           <Route path="/lovegraphy" element={<LoveGraphy />} />
+          <Route path="/lovegraphy/:day" element={<Date />} />
 
           <Route
             path="*"
