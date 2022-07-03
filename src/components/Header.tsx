@@ -20,6 +20,13 @@ const Header = () => {
               각서
             </NavLink>
           </li>
+          <li className="ml-auto">
+            <img
+              src="image/red-heart.svg"
+              className="w-6 h-6"
+              alt="heart icon"
+            />
+          </li>
         </ul>
       </nav>
     </header>
