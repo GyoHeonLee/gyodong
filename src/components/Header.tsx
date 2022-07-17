@@ -20,6 +20,11 @@ const Header = () => {
               각서
             </NavLink>
           </li>
+          <li>
+            <NavLink to="/pokemon" className="nav--btn">
+              포켓몬
+            </NavLink>
+          </li>
           <li className="ml-auto">
             <img
               src="image/red-heart.svg"
