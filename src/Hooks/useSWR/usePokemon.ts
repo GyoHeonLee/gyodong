@@ -1,4 +1,4 @@
-import useSWR from "swr";
+import { SWRInfiniteKeyLoader } from "swr/infinite";
+import axios from "axios";
 
-export const usePokemon = (value: string) =>
-  useSWR(`https://pokeapi.co/api/v2/pokemon/${value}`);
+export const fetcher = (url: string) => axios.get(url).then((res) => res.data);
